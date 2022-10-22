@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../fotos/logo-nuevo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="locales.html">Locales</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="h2-contacto">Dejanos tu comentario</h2>
+    <section id="form">
+        <form class="formulario" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <Label for="sexo">Sexo</Label>
+                    <form action="Sexo">
+                        <select name="sexo" id="sexo">
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="no-especifica">No Especifica</option>
+                        </select>
+                    </form>
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li>
+                    <button type="submit">Enviar</button>
+                </li>
+                <li>
+                    <button type="reset">Reiniciar</button>
+                </li>
+                <li>
+                    <form>
+                        <div>Acepta términos y condiciones</div>
+                        <input type="checkbox" name="acepta" value="1" />
+                    </form>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <footer id="foot">
+        <div class="conte">
+            <ul>
+                <li><a>©2022 PIZZERIA ERBEY</a></li>
+                <li><a>CONTACTO: 15-5555-5555</a></li>
+                <li><a>HORARIO: MAR A DOM 18-22 HS</a></li>
+            </ul>
+            <div class="redes">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
