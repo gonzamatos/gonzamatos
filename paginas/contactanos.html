@@ -41,19 +41,57 @@
           </nav>       
     </header>
     <h2 class="h2-contacto">Dejanos tu comentario</h2>
-    <section id="form">
+    <section>
+        <div class="container">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="mb-3">                    
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                </div>
+                <div class="mb-3">                    
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Apellido">
+                </div>
+                <div class="mb-3">                    
+                    <input type="email" class="form-control" id="formGroupExampleInput" placeholder="E-Mail">
+                </div>
+                <div class="mb-3">                    
+                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Telefono">
+                </div>
+                <div class="mb-3">                    
+                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Edad">
+                </div>
+                <div class="mb-3">
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select" id="inlineFormSelectPref">
+                        <option selected>Sexo</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                        <option value="3">No Especifica</option>
+                    </select>                
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control comentario" placeholder="Dejanos tu comentario" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-auto" >
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    <div class="col-auto">
+                        <button type="reset" class="btn btn-primary">Reiniciar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="form">
         <form class="formulario" action="/my-handling-form-page" method="post">
             <ul>
-                <li>
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="user_name">
+                <li>                    
+                    <input type="text" id="name" placeholder="Nombre" name="user_name">
                 </li>
                 <li>
-                    <label for="lastname">Apellido:</label>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" placeholder="Apellido" name="user_name">
                 </li>
                 <li>
-                    <Label for="sexo">Sexo</Label>
                     <form action="Sexo">
                         <select name="sexo" id="sexo">
                             <option value="masculino">Masculino</option>
@@ -63,8 +101,7 @@
                     </form>
                 </li>
                 <li>
-                    <label for="mail">Correo electrónico:</label>
-                    <input type="email" id="mail" name="user_mail">
+                    <input type="email" id="mail" placeholder="E-Mail" name="user_mail">
                 </li>
                 <li>
                     <label for="msg">Mensaje:</label>
@@ -84,11 +121,11 @@
                 </li>
             </ul>
         </form>
-    </section>
+    </section> -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-dark">&copy; 2022 Coffee Company.</span>
+            <span class="mb-3 mb-md-0 text-dark">&copy; 2022 Pizzeria Erbey.</span>
           </div>
             <div class="redes-sociales justify-content-between">        
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter m-2" viewBox="0 0 16 16">
