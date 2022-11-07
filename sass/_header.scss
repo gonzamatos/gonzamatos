@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    transition: all 0.8s ease-in-out;
+    color: rgb(243, 243, 141);
+    transform: scale(1.04);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-link:hover {
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}

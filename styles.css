@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif; 
+}
+
+html {
+    font-family: 'Oswald', sans-serif;    
+}
+
+body {
+    color: black;
+    position: relative;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    transition: all 0.8s ease-in-out;
+    color: rgb(243, 243, 141);
+    transform: scale(1.04);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-link:hover {
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* --------------------------------- INDEX ------------------------------------------------------------------------------ */
+
+#hero {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ) 
+    ,url(./fotos/pizzabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero a{
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: red;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto p{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.comida {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 2px 1px 5px black;
+}
+
+/* -------------------------------------------------------------------------------- FIN INDEX ----------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------- MENU ---------------------------------------------------------------------------- */
+
+.h2-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 150px;
+}
+
+#carta {
+    height: auto;
+    width: 100%;    
+    display: grid;    
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 250px);  
+    grid-gap: 20px;
+    padding: 0px;
+}
+
+
+#carta ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.menu {
+    display: flex;
+    width: 90%;
+    max-width: 400px;
+    flex-direction: column;
+    text-align: center;    
+    background-image: url(./fotos/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    #carta {
+        height: auto;
+        width: 100%;    
+        display: grid;    
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 250px);  
+        grid-gap: 40px;
+        padding: 0px;
+    }
+    
+    .menu:hover {
+        transform: scale(1.10);
+        transition: all 0.7s ease-in-out;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        -webkit-transform: scale(1.10);
+        -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        -o-transform: scale(1.10);
+    }
+
+    .pizzas {
+        margin-left: 18%;
+    }
+
+    .bebidas {
+        margin-left: 18%;
+    }
+
+    .empanada {
+        margin-right: 18%;
+    }
+
+    .promos {
+        margin-right: 18%;
+    }
+}
+
+
+/* -------------------------------------------------------------------------------- FIN MENU ---------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------- CONTACTANOS ---------------------------------------------------------------------------- */
+
+.h2-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7%;
+}
+
+.comentario {
+    height: 250px;
+}
