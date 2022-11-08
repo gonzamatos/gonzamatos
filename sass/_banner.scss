@@ -15,9 +15,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-
-#hero {
     a {
         display: flex;
         font-size: 1.5em;
@@ -25,7 +22,7 @@
         margin: 15px;
         padding: 10px 20px;        
         color: $color2;
-        background-color: red;
+        background-color:#FF0000;
         text-decoration: none;
         @include cajas;
     }
