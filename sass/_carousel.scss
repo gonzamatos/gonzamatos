@@ -2,18 +2,15 @@
     text-align: center;
 }
 
-.texto p{
-    text-align: left;
-    margin-top: 15px;
+.texto {
+    p {
+        text-align: left;
+        margin-top: 15px;
+    }
 }
 
 .comida {
     background-size: cover;
     background-position: center;
-    border-radius: 15px;    
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    box-shadow: 2px 1px 5px black;
+    @include cajas;
 }
