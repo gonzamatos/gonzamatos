@@ -11,11 +11,13 @@ $color2: #FFFFFF;
 
 $color3: #000000;
 
+$color4: #86d9ee;
+
 body {
     color: $color3;
     position: relative;
     min-height: 100vh;
-    background-color: rgba(208, 233, 232, 0.822);
+    background-color: $color4;
 }
 
 h1 { 
@@ -23,17 +25,17 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
-    font-family: 'Rubik Bubbles', cursive;
+    font-size: 50px;
+    font-family: 'Rubik Marker Hatch', cursive;
 }
 
 h3 {
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 0;    
-    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;    
 }

@@ -9,6 +9,9 @@
         border: 2px solid $color3;
         @include cajas;
     }
+    .titulo-galeria {
+        margin: 50px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -21,3 +24,4 @@
         -o-transform: scale(1.07);
     }
 }
+
